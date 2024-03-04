@@ -1,0 +1,20 @@
+#playArea{
+    height: 100%;
+    width: 40%; 
+    display: flex;
+    align-items: center;
+}
+#bottomHUD{
+    position:absolute;
+    width: 1080px;
+    margin: 0px;
+    padding: 0px;
+    bottom:0px;
+    flex: auto;
+    align-content: center;
+    right: auto;
+    left: auto;
+}
+body{
+    background-color: #26215B;
+}
