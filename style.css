@@ -15,7 +15,21 @@
 body{
     background-color: #210b30;
 }
-
+#icons{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ikoner {
+    position:relative;
+    left: 7em;
+    bottom: 18em;
+    width: 200%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media (min-width: 600px ){
     #playArea{
         display: flex;
@@ -24,9 +38,27 @@ body{
         width: 30%;  
     }
     #GHBVid{
-        display: flex;
+        display: none;
         margin-left: auto;
         margin-right: auto;
         width: 30%;  
+    }
+    .ikoner {
+        width: 40%;
+        position:relative;
+        left: 7em;
+        bottom: 7em;
+        padding: none;
+    }
+    #icons{
+        display:flex;
+        margin: auto;
+    }
+    #icons{
+        display: flex;
+        position: relative;
+        margin-left:20%;
+        margin-right: 16%;
+        margin-top: 20px;
     }
 }

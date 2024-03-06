@@ -1,5 +1,5 @@
 GHBVideo = document.getElementById("GHBVid");
-document.getElementById("playArea").onclick = function(){
+document.getElementById("GHBIkon").onclick = function(){
     document.getElementById("playArea").style.display = "none"
     document.getElementById("GHBVid").style.display = "flex"
 
