@@ -1,20 +1,15 @@
 #playArea{
-    height: 100%;
-    width: 40%; 
-    display: flex;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;  
 }
-#bottomHUD{
-    position:absolute;
-    width: 1080px;
-    margin: 0px;
-    padding: 0px;
-    bottom:0px;
-    flex: auto;
-    align-content: center;
-    right: auto;
-    left: auto;
+#GHBVid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0%;  
 }
 body{
-    background-color: #26215B;
+    background-color: #2A0047;
 }
