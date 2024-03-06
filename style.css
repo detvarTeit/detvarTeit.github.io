@@ -1,15 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 #playArea{
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;  
 }
 #GHBVid{
-    display: block;
+    display: none;
     margin-left: auto;
     margin-right: auto;
-    width: 0%;  
 }
 body{
-    background-color: #2A0047;
+    background-color: #210b30;
+}
+
+@media (min-width: 600px ){
+    #playArea{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;  
+    }
+    #GHBVid{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;  
+    }
 }
