@@ -29,7 +29,7 @@ body{
         transform: none;
         justify-content: center;
     }
-    #alchohol #Cannabis #cocain #Ecstasy #GHBIkon #LSD{
+    #alchohol, #Cannabis, #cocain, #Ecstasy, #GHBIkon, #LSD{
         width: 80%;
     }
 }
