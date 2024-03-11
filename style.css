@@ -5,15 +5,20 @@
 body{
     background-color: #210b30;
 }
+#playArea {
+    border: 2px solid lime;
+}
 #GHBVid {
     display: none;
 }
 
 #game {
+    border: 2px solid red;
     display: flex;
     justify-content: center;
 }
 #icons {
+    border: 2px solid yellow;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -28,9 +33,7 @@ body{
         top: auto;
         transform: none;
         justify-content: center;
-    }
-    #alchohol, #Cannabis, #cocain, #Ecstasy, #GHBIkon, #LSD{
-        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
