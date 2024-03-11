@@ -10,12 +10,10 @@ body{
 }
 
 #game {
-    border: 4px solid red;
     display: flex;
     justify-content: center;
 }
 #icons {
-    border: 4px solid yellow;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
