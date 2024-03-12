@@ -1,20 +1,73 @@
+@font-face {
+    font-family: prstart;
+    src: url(assets/fonts/prstart.ttf);
+}
+@font-face {
+    font-family: dogica;
+    src: url(assets/fonts/dogica.otf);
+}
 *{
     padding: 0%;
     margin: 0%;
 }
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
 body{
     background-color: #210b30;
 }
-#GHBVid {
+#info {
+    min-height: 356px;
+    max-height: 356px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+h1 {
+    line-height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    color: #ffd000;
+    font-family: prstart;
+    padding: 15px;
+    border: 5px solid #ffd000;
+    background-color: #210b30;
+}
+p {
+    line-height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 10%;
+    color: #ffd000;
+    font-family: dogica;
+    padding: 15px;
+    padding-right: 40px;
+    border: 5px solid #ffd000;
+    background-color: #210b30
+}
+.videos {
+    border: 5px solid #ffd000;
     display: none;
+}
+#playArea {
+    border: 5px solid #ffd000;
 }
 
 #game {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    margin: 20px;
 }
 #icons {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
     position: absolute;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -25,9 +78,32 @@ body{
     #icons {
         position: relative;
         left: auto;
-        top: auto;
+        top: 25%;
         transform: none;
         justify-content: center;
     }
+    .iconItem {
+        flex: 1 1 calc(33.33% - 10px);
+        max-width: calc(33.33% - 10px); 
+    }
 }
 
+#play {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #ffd000;
+    font-family: prstart;
+    font-size: xxx-large;
+    position: absolute;
+}
+
+#startScrn {
+    margin-top: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#StartVid {
+    display: none;
+}
