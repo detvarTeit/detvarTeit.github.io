@@ -7,6 +7,8 @@ CannabisVideo = document.getElementById("CannabisVid")
 
 navnBox = document.getElementById("navn")
 infoBox = document.getElementById("info")
+navnBox2 = document.getElementById("navn2")
+infoBox2 = document.getElementById("info2")
 
 /*
 GHBVideo.pause()
@@ -22,6 +24,8 @@ LSDVideo.pause()
 document.getElementById("GHBIkon").onclick = function(){
     navnBox.innerHTML = "GHB"
     infoBox.innerHTML = "GHB er ett rusmiddel som skaper beroligende effekter og kan lede til dyp søvn og bevisstløshet. Stoffet bruker å ta effekt etter 20 minutter, derfor merker ikke folk at de er beruset etter de har brukt GHB."
+    navnBox2.innerHTML = "GHB"
+    infoBox2.innerHTML = "GHB er ett rusmiddel som skaper beroligende effekter og kan lede til dyp søvn og bevisstløshet. Stoffet bruker å ta effekt etter 20 minutter, derfor merker ikke folk at de er beruset etter de har brukt GHB."
 
     document.getElementById("playArea").style.display = "none"
     document.getElementById("GHBVid").style.display = "flex"
@@ -48,6 +52,8 @@ document.getElementById("GHBIkon").onclick = function(){
 document.getElementById("Ecstasy").onclick = function(){
     navnBox.innerHTML = "Ecstasy"
     infoBox.innerHTML = "Ecstasy er ett rusmiddel som skaper høy selvfølelse og rask puls. Ecstasy øker produksjon av en del signalstoffer, slik som adrenalin og dopamin. Du kan lett miste følelse og glemme hvor fort man kjører. De som bruker Ecstasy bruker ofte å miste kontroll lettere når de kjører."
+    navnBox2.innerHTML = "Ecstasy"
+    infoBox2.innerHTML = "Ecstasy er ett rusmiddel som skaper høy selvfølelse og rask puls. Ecstasy øker produksjon av en del signalstoffer, slik som adrenalin og dopamin. Du kan lett miste følelse og glemme hvor fort man kjører. De som bruker Ecstasy bruker ofte å miste kontroll lettere når de kjører."
     
     document.getElementById("playArea").style.display = "none"
     document.getElementById("EcstasyVid").style.display = "flex"
@@ -74,6 +80,8 @@ document.getElementById("Ecstasy").onclick = function(){
 document.getElementById("LSD").onclick = function(){
     navnBox.innerHTML = "LSD"
     infoBox.innerHTML = "LSD er ett rusmiddel som er ofte assosiert med illusjoner og hallusinasjoner som påvirker alle de fem sansene, smak, lukt, hørsel, syn, berøring og hørsel. LSD kan skape lett avslappelse, men kan også både stresse og gjøre det enklere å hallusinere farlige greier selv om de ikke er der."
+    navnBox2.innerHTML = "LSD"
+    infoBox2.innerHTML = "LSD er ett rusmiddel som er ofte assosiert med illusjoner og hallusinasjoner som påvirker alle de fem sansene, smak, lukt, hørsel, syn, berøring og hørsel. LSD kan skape lett avslappelse, men kan også både stresse og gjøre det enklere å hallusinere farlige greier selv om de ikke er der."
     
     document.getElementById("playArea").style.display = "none"
     document.getElementById("LSDVid").style.display = "flex"
@@ -100,6 +108,8 @@ document.getElementById("LSD").onclick = function(){
 document.getElementById("alkohol").onclick = function(){
     navnBox.innerHTML = "Alkohol"
     infoBox.innerHTML = "Alkohol er ett av de vanligste rusmidlene som vi har i Norge. Når du drikker alkohol så bruker det oftest å dempe sansene dine, reaksjonstid og det er vanlig å begynne å slurve med ord. Treg reaksjonstid og dempet sanser er ofte hvorfor de som er beruset med alkohol har bilulykker."
+    navnBox2.innerHTML = "Alkohol"
+    infoBox2.innerHTML = "Alkohol er ett av de vanligste rusmidlene som vi har i Norge. Når du drikker alkohol så bruker det oftest å dempe sansene dine, reaksjonstid og det er vanlig å begynne å slurve med ord. Treg reaksjonstid og dempet sanser er ofte hvorfor de som er beruset med alkohol har bilulykker."
     
     document.getElementById("playArea").style.display = "none"
     document.getElementById("LSDVid").style.display = "none"
@@ -126,6 +136,8 @@ document.getElementById("alkohol").onclick = function(){
 document.getElementById("cocain").onclick = function(){
     navnBox.innerHTML = "Kokain"
     infoBox.innerHTML = "Kokain er ett rusmiddel som bruker å skape virkninger som paranoia, kvalme, angst og hallusinasjoner. Paranoia og hallusinasjoner er ofte en dødelig kombinasjon ute i trafikken. Kokain er også ett av de vanligste stoffene som blir brukt her i Norge."
+    navnBox2.innerHTML = "Kokain"
+    infoBox2.innerHTML = "Kokain er ett rusmiddel som bruker å skape virkninger som paranoia, kvalme, angst og hallusinasjoner. Paranoia og hallusinasjoner er ofte en dødelig kombinasjon ute i trafikken. Kokain er også ett av de vanligste stoffene som blir brukt her i Norge."
     
     document.getElementById("playArea").style.display = "none"
     document.getElementById("LSDVid").style.display = "none"
@@ -152,6 +164,8 @@ document.getElementById("cocain").onclick = function(){
 document.getElementById("Cannabis").onclick = function(){
     navnBox.innerHTML = "Cannabis"
     infoBox.innerHTML = "Cannabis er ett fellesnavn for rusmidler slik som marihuana og hasj. Cannabis skaper ofte følelse av økt letthet og dempet reaksjonsevne, konsentrasjon. Konsentrasjon er nok en av de største bivirkningene av cannabis og er ofte hvorfor de fleste havner i bilulykker når de er beruset av cannabis."
+    navnBox2.innerHTML = "Cannabis"
+    infoBox2.innerHTML = "Cannabis er ett fellesnavn for rusmidler slik som marihuana og hasj. Cannabis skaper ofte følelse av økt letthet og dempet reaksjonsevne, konsentrasjon. Konsentrasjon er nok en av de største bivirkningene av cannabis og er ofte hvorfor de fleste havner i bilulykker når de er beruset av cannabis."
     
     document.getElementById("playArea").style.display = "none"
     document.getElementById("LSDVid").style.display = "none"

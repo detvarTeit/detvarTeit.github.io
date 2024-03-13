@@ -18,6 +18,9 @@ main {
 body{
     background-color: #210b30;
 }
+#textBox2 {
+    display: none;
+}
 #info {
     min-height: 356px;
     max-height: 356px;
@@ -75,16 +78,40 @@ p {
 }
 
 @media (max-width: 768px) {
+    header {
+        display: none;
+    }
+    #textBox{
+        display: none;
+    }
+    #textBox2{
+        justify-content:center ;
+        position: relative;
+        display:block;
+        top: 3%;
+        right: 4%;
+    }
+    main {
+        zoom: 85%;
+    }
+    #game {
+        justify-content:left;
+    }
     #icons {
         position: relative;
-        left: auto;
-        top: 25%;
+        left: 3%;
+        right: auto;
+        top: 1%;
         transform: none;
         justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1fr;
     }
     .iconItem {
         flex: 1 1 calc(33.33% - 10px);
-        max-width: calc(33.33% - 10px); 
+        max-width: calc(100.33% - 10px); 
+        
     }
 }
 
